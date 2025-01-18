@@ -1,5 +1,5 @@
 {
-    "productName": "Onlook",
+    "productName": "Astral",
     "name": "@onlook/studio",
     "version": "0.1.21",
     "homepage": "https://onlook.com",
@@ -7,8 +7,8 @@
     "description": "The first-ever devtool for designers",
     "license": "Apache-2.0",
     "author": {
-        "name": "Onlook",
-        "email": "contact@onlook.com"
+        "name": "Astral",
+        "email": "contact@astral.com"
     },
     "private": true,
     "repository": {

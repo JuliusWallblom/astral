@@ -6,8 +6,8 @@
     "license": "Apache-2.0",
     "private": true,
     "author": {
-        "name": "Onlook",
-        "email": "contact@onlook.com"
+        "name": "Astral",
+        "email": "contact@astral.com"
     },
     "workspaces": [
         "packages/*",
@@ -37,7 +37,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/onlook-dev/onlook.git"
+        "url": "git+https://github.com/JuliusWallblom/astral.git"
     },
     "bugs": {
         "url": "https://github.com/onlook-dev/onlook/issues"

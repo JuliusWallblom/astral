@@ -57,7 +57,7 @@
         artifactName: '${productName}-${arch}.${ext}',
         category: 'Utility',
         desktop: {
-            Name: 'Onlook',
+            Name: 'Astral',
         },
     },
     nsis: {},
