@@ -137,7 +137,7 @@ const LoadSetupProject: StepComponent = ({ props, variant }) => {
 
     function renderDescription(): string | JSX.Element {
         if (state === StepState.INSTALLED) {
-            return 'Open this project in Onlook any time to start designing';
+            return 'Open this project in Astral any time to start designing';
         }
         if (state === StepState.ERROR) {
             return (

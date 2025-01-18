@@ -59,7 +59,7 @@ const EnabledButton = observer(({ webviewId }: { webviewId: string }) => {
             popoverContent = (
                 <div className="space-y-2 flex flex-col">
                     <div className="flex gap-2 w-full justify-center">
-                        <p className="text-active text-regularPlus">Onlook is enabled</p>
+                        <p className="text-active text-regularPlus">Astral is enabled</p>
                         <Icons.CheckCircled className="mt-[3px] text-foreground-positive" />
                     </div>
                     <p className="text-foreground-onlook text-small w-80 text-wrap">
@@ -74,13 +74,13 @@ const EnabledButton = observer(({ webviewId }: { webviewId: string }) => {
                 <div className="space-y-2 flex flex-col w-80 items-center">
                     <div className="flex gap-2 justify-center">
                         <p className="text-active text-regularPlus">
-                            {"Onlook won't work on this page"}
+                            {"Astral won't work on this page"}
                         </p>
                         <Icons.CircleBackslash className="mt-[3px] text-red-500" />
                     </div>
                     <p className="text-foreground-onlook text-small text-left">
                         {
-                            "This url is not linked to Onlook's editor. Please navigate to a url that is linked to Onlook's editor."
+                            "This url is not linked to Astral's editor. Please navigate to a url that is linked to Astral's editor."
                         }
                     </p>
                 </div>

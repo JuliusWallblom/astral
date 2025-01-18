@@ -48,10 +48,10 @@ class RunManager {
             this.setState(RunState.SETTING_UP, 'Setting up...');
             const reverted = await revertLegacyOnlook(folderPath);
             if (!reverted) {
-                console.error('Failed to revert legacy Onlook settings.');
+                console.error('Failed to revert legacy Astral settings.');
                 this.setState(
                     RunState.SETTING_UP,
-                    'Warning: Failed to revert legacy Onlook settings.',
+                    'Warning: Failed to revert legacy Astral settings.',
                 );
             }
 

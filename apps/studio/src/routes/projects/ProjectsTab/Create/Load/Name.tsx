@@ -37,7 +37,7 @@ export const LoadNameProject = ({
                 <CardTitle>{'Let’s name your project'}</CardTitle>
                 <CardDescription>
                     {
-                        "This is your Onlook project name. Don't worry, This will not rename your actual folder."
+                        "This is your Astral project name. Don't worry, This will not rename your actual folder."
                     }
                 </CardDescription>
             </CardHeader>

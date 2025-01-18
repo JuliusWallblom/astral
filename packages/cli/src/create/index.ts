@@ -2,7 +2,7 @@ import { createProject, CreateStage, type CreateCallback } from '@onlook/foundat
 import ora from 'ora';
 
 export async function create(projectName: string): Promise<void> {
-    console.log(`Creating a new Onlook project: ${projectName}`);
+    console.log(`Creating a new Astral project: ${projectName}`);
     const targetPath = process.cwd();
     const spinner = ora('Initializing project...').start();
 
@@ -24,7 +24,7 @@ export async function create(projectName: string): Promise<void> {
                 spinner.fail(message);
                 break;
         }
-    }
+    };
 
     try {
         await createProject(projectName, targetPath, progressCallback);

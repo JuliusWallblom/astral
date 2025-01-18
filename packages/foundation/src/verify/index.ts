@@ -14,7 +14,7 @@ export const verifyProject = async (
                 return;
             }
         }
-        onProgress(VerifyStage.NOT_INSTALLED, 'No Onlook dependencies found.');
+        onProgress(VerifyStage.NOT_INSTALLED, 'No Astral dependencies found.');
     } catch (e: any) {
         console.error(e);
         onProgress(VerifyStage.ERROR, `Error verifying project. ${e.message}`);

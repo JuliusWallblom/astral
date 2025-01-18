@@ -6,7 +6,7 @@
 ](https://youtu.be/RSX_3EaO5eU)
 
 <div align="center">
-<h3 align="center">Onlook</h3>
+<h3 align="center">Astral</h3>
   <p align="center">
     The first browser-powered visual editor.
     <br />

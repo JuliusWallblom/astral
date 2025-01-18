@@ -1,4 +1,4 @@
-# Onlook nextjs preprocessor
+# Astral nextjs preprocessor
 
 ## Usage
 

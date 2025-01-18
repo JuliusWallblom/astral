@@ -167,7 +167,7 @@ export enum Links {
     OPEN_ISSUE = 'https://github.com/onlook-dev/onlook/issues/new/choose',
 }
 
-export const APP_NAME = 'Onlook';
+export const APP_NAME = 'Astral';
 export const APP_SCHEMA = 'onlook';
 export const HOSTING_DOMAIN = 'onlook.live';
 export const CUSTOM_OUTPUT_DIR = '.next-prod';

@@ -1,7 +1,7 @@
 {
     "name": "@onlook/repo",
     "version": "0.0.0",
-    "description": "Onlook Monorepo",
+    "description": "Astral Monorepo",
     "homepage": "https://onlook.com",
     "license": "Apache-2.0",
     "private": true,

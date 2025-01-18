@@ -42,7 +42,7 @@ export const ChooseMethod = ({
                         <Icons.FilePlus className="w-4 h-4 text-np-primary-icon-shape" />
                     </div>
                     <h3 className="text-regular font-medium pt-2 text-np-primary-card-text">
-                        {'New Onlook project'}
+                        {'New Astral project'}
                     </h3>
                     <p className="text-small text-np-primary-card-subtext">{'Start a React App'}</p>
                 </Card>

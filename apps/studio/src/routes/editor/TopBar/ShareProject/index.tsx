@@ -92,7 +92,7 @@ const ShareProject = observer(() => {
                 className="space-y-4"
             >
                 <p className="text-regular text-foreground-secondary">
-                    Share your app with the world and update it at any time in Onlook. We currently
+                    Share your app with the world and update it at any time in Astral. We currently
                     only support Next.js projects.
                 </p>
                 <Button onClick={createLink} className="w-full">

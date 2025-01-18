@@ -1,3 +1,3 @@
-# Onlook Utils
+# Astral Utils
 
-A shared utility package for Onlook.
+A shared utility package for Astral.

@@ -44,12 +44,10 @@ const SignIn = observer(() => {
                     </div>
                     <div className="space-y-4">
                         <h1 className="text-title1 leading-tight">
-                            {lastSignInMethod ? 'Welcome back to Onlook' : 'Welcome to Onlook'}
+                            {lastSignInMethod ? 'Welcome back to Astral' : 'Welcome to Astral'}
                         </h1>
                         <p className="text-foreground-onlook text-regular">
-                            {
-                                ' Onlook is an open-source visual editor for React apps. Design directly in your live product.'
-                            }
+                            {' Astral is the next generation of AI software development.'}
                         </p>
                     </div>
                     <div className="space-x-2 flex flex-row">

@@ -1,4 +1,4 @@
-# Onlook React Babel preprocessor
+# Astral React Babel preprocessor
 
 ## Usage
 

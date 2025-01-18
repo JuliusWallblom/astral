@@ -191,7 +191,7 @@ const SettingsTab = observer(({ setCurrentTab }: { setCurrentTab: (tab: ProjectT
                 </div>
                 <div className="w-full h-[0.5px] bg-gray-600"></div>
                 <div className="w-full h-[fit-content] flex flex-row gap-1 text-gray-400 text-micro">
-                    <p>{`Onlook Studio Version ${window.env.APP_VERSION} • `}</p>
+                    <p>{`Astral Studio Version ${window.env.APP_VERSION} • `}</p>
                     <button
                         onClick={() => openExternalLink('https://onlook.com/privacy-policy')}
                         className="text-gray-400 hover:text-gray-200 underline transition-colors duration-200"

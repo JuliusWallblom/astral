@@ -1,6 +1,6 @@
 {
     "name": "onlook",
-    "description": "The Onlook Command Line Interface",
+    "description": "The Astral Command Line Interface",
     "version": "0.0.0",
     "repository": {
         "type": "git",
@@ -27,8 +27,8 @@
         "plugins"
     ],
     "author": {
-        "name": "Onlook",
-        "email": "contact@onlook.com"
+        "name": "Astral",
+        "email": "contact@astral.com"
     },
     "license": "Apache-2.0",
     "homepage": "https://onlook.com",

@@ -1,6 +1,6 @@
 {
     "name": "@onlook/ai",
-    "description": "A AI library for Onlook",
+    "description": "A AI library for Astral",
     "main": "./src/index.ts",
     "type": "module",
     "module": "src/index.ts",
@@ -18,12 +18,12 @@
         "typecheck": "tsc --noEmit"
     },
     "keywords": [
-        "onlook",
+        "astral",
         "AI"
     ],
     "author": {
-        "name": "Onlook",
-        "email": "contact@onlook.com"
+        "name": "Astral",
+        "email": "contact@astral.com"
     },
     "license": "Apache-2.0",
     "homepage": "https://onlook.com",

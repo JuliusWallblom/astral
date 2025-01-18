@@ -362,7 +362,7 @@ const Frame = observer(
                                 {' to start designing your App'}
                             </p>
                             <p className="text-foreground-onlook text-title3 text-center max-w-80">
-                                {'In Onlook, you design your App while it is running'}
+                                {'In Astral, you design your App while it is running'}
                             </p>
                             <Button
                                 variant={'link'}

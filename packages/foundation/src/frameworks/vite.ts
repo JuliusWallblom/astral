@@ -127,7 +127,7 @@ export const modifyViteConfig = (configFileExtension: string): void => {
                     );
 
                     if (reactPluginIndex === -1) {
-                        // If react plugin doesn't exist, add it with the Onlook Babel plugin
+                        // If react plugin doesn't exist, add it with the Astral Babel plugin
                         const reactPlugin = t.callExpression(t.identifier('react'), [
                             t.objectExpression([
                                 t.objectProperty(
@@ -147,7 +147,7 @@ export const modifyViteConfig = (configFileExtension: string): void => {
                         reactPluginAdded = true;
                         onlookBabelPluginAdded = true;
                     } else {
-                        // If react plugin exists, ensure it has the Onlook Babel plugin
+                        // If react plugin exists, ensure it has the Astral Babel plugin
                         const reactPlugin = pluginsArray[reactPluginIndex];
                         if (t.isCallExpression(reactPlugin) && reactPlugin.arguments.length === 0) {
                             // React plugin exists but has no arguments, add the configuration
@@ -172,7 +172,7 @@ export const modifyViteConfig = (configFileExtension: string): void => {
                             t.isCallExpression(reactPlugin) &&
                             reactPlugin.arguments.length > 0
                         ) {
-                            // React plugin exists and has arguments, ensure it has the Onlook Babel plugin
+                            // React plugin exists and has arguments, ensure it has the Astral Babel plugin
                             const reactConfig = reactPlugin.arguments[0];
                             if (t.isObjectExpression(reactConfig)) {
                                 let babelProp = reactConfig.properties.find(

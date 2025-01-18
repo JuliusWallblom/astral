@@ -1,6 +1,6 @@
 {
     "name": "@onlook/supabase",
-    "description": "Supabase client library for Onlook",
+    "description": "Supabase client library for Astral",
     "version": "0.0.0",
     "private": true,
     "scripts": {
@@ -15,8 +15,8 @@
         "supabase"
     ],
     "author": {
-        "name": "Onlook",
-        "email": "contact@onlook.com"
+        "name": "Astral",
+        "email": "contact@astral.com"
     },
     "license": "Apache-2.0",
     "homepage": "https://onlook.com",

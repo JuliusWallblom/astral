@@ -1,12 +1,12 @@
-# Onlook CLI
-A command line interface for Onlook. 
+# Astral CLI
+A command line interface for Astral. 
 
 This package contains the following functionality
 
 - [x] Setting up your project
 - [X] Install template projects
 - [ ] Auto generate component library
-- [ ] Migrating your Onlook configuration
+- [ ] Migrating your Astral configuration
 
 ### How to use
 

@@ -67,7 +67,7 @@ const ProjectBreadcrumb = observer(() => {
                             onClick={handleReturn}
                         >
                             <Icons.OnlookLogo className="w-6 h-6 mr-2 hidden md:block" />
-                            {'Onlook'}
+                            {'Astral'}
                         </Button>
                     </TooltipTrigger>
                     <TooltipContent side="bottom" className="pt-1 text-background bg-foreground">

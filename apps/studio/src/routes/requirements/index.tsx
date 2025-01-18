@@ -30,10 +30,10 @@ const Requirements = observer(() => {
                 <div className="space-y-8">
                     <div className="space-y-4">
                         <h2 className="text-title2 leading-tight">
-                            {"Let's make sure you can use Onlook"}
+                            {"Let's make sure you can use Astral"}
                         </h2>
                         <p className="text-foreground-onlook text-regular">
-                            These are required so that you can use Onlook with sites and apps. These
+                            These are required so that you can use Astral with sites and apps. These
                             are very standard requirements for coding.
                         </p>
                     </div>

@@ -1,6 +1,6 @@
 ---
 name: 🥺 Help wanted
-about: Confuse about the use of Onlook
+about: Confuse about the use of Astral
 title: "[Help] the title of help wanted report"
 labels: help wanted
 assignees: ''

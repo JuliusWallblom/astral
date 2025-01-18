@@ -1,6 +1,6 @@
 {
     "name": "@onlook/foundation",
-    "description": "A shared library for Onlook",
+    "description": "A shared library for Astral",
     "version": "0.0.0",
     "repository": {
         "type": "git",
@@ -26,8 +26,8 @@
         "utils"
     ],
     "author": {
-        "name": "Onlook",
-        "email": "contact@onlook.com"
+        "name": "Astral",
+        "email": "contact@astral.com"
     },
     "license": "Apache-2.0",
     "homepage": "https://onlook.com",
