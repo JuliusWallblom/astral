@@ -99,7 +99,7 @@ const Toolbar = observer(() => {
 
     return (
         <AnimatePresence mode="wait">
-            {editorEngine.mode !== EditorMode.INTERACT && (
+            {editorEngine.mode !== EditorMode.PREVIEW && (
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}

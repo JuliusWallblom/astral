@@ -19,8 +19,8 @@ const ModeToggle = observer(() => {
             hotkey: Hotkey.SELECT,
         },
         {
-            mode: EditorMode.INTERACT,
-            hotkey: Hotkey.INTERACT,
+            mode: EditorMode.PREVIEW,
+            hotkey: Hotkey.PREVIEW,
         },
     ];
 
@@ -32,7 +32,7 @@ const ModeToggle = observer(() => {
     }, [editorEngine.mode]);
 
     function makeDesignMode(mode: EditorMode) {
-        return mode === EditorMode.INTERACT ? EditorMode.INTERACT : EditorMode.DESIGN;
+        return mode === EditorMode.PREVIEW ? EditorMode.PREVIEW : EditorMode.DESIGN;
     }
 
     return (

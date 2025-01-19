@@ -285,7 +285,7 @@ const Frame = observer(
         }
 
         function getSelectedOutlineColor() {
-            if (editorEngine.mode === EditorMode.INTERACT) {
+            if (editorEngine.mode === EditorMode.PREVIEW) {
                 return 'outline-blue-400';
             }
             if (domState === WebviewState.DOM_ONLOOK_ENABLED) {
@@ -358,7 +358,7 @@ const Frame = observer(
                         <div className="absolute inset-0 flex flex-col items-center justify-center bg-gradient-to-t from-gray-800/40 via-gray-500/40 to-gray-400/40 border-gray-500 border-[0.5px] space-y-6 rounded-xl">
                             <p className="text-active text-title1 text-center">
                                 {'Press '}
-                                <span className="text-teal-600 dark:text-teal-300">Play</span>
+                                <span className="text-teal-600 dark:text-teal-300">Start</span>
                                 {' to start designing your App'}
                             </p>
                             <p className="text-foreground-onlook text-title3 text-center max-w-80">

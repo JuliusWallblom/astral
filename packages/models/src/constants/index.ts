@@ -157,6 +157,8 @@ export enum MainChannels {
     START_DEPLOYMENT = 'start-deployment',
     DEPLOY_STATE_CHANGED = 'deploy-state-changed',
     UNPUBLISH_HOSTING_ENV = 'unpublish-hosting-env',
+
+    GET_PROJECT_FILES = 'get-project-files',
 }
 
 export enum Links {

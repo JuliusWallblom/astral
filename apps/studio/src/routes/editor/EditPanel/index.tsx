@@ -98,7 +98,7 @@ const EditPanel = observer(() => {
             id="style-panel"
             className={cn(
                 'fixed right-0 transition-width duration-300 opacity-100 bg-background/80 rounded-tl-xl overflow-hidden',
-                editorEngine.mode === EditorMode.INTERACT ? 'hidden' : 'visible',
+                editorEngine.mode === EditorMode.PREVIEW ? 'hidden' : 'visible',
                 !isOpen && 'w-10 h-10 rounded-l-xl cursor-pointer',
                 isOpen && 'h-[calc(100vh-5rem)]',
                 isOpen && selectedTab == EditorTabValue.STYLES && 'w-60',
